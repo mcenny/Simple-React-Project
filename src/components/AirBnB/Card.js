@@ -3,7 +3,7 @@ export default function Card() {
     <div className="card">
       <img src="./img/katie-zaferas.png" className="card--photo" />
       <div>
-        <img src="/img/Star.png" className="card--star" />
+        <img src="./img/Star.png" className="card--star" />
         <span >5.0 </span>
         <span className="gray"> (6) </span>
         <span className="gray"> • USA</span>
