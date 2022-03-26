@@ -2,7 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom";
 // import "./index.css";
 
-
 // // THIS WORKS FOR BUSINESS CARD SOLO PROJECT
 
 // import App from "./components/Business card/App";
@@ -14,7 +13,6 @@ import ReactDOM from "react-dom";
 //     </div>,
 //     document.getElementById('root')
 // )
-
 
 // THIS WORKS FOR AirBnB PROJECT
 
