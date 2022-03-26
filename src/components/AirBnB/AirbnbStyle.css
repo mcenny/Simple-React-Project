@@ -16,6 +16,7 @@ body {
   min-height: 100vh;
   display: flex;
   justify-content: center;
+  /* overflow: hidden; */
 }
 
 .app {
@@ -74,18 +75,43 @@ section {
   gap: 8px;
   font-size: 12px;
   font-weight: 300;
-  padding-left: 37px;
-  background-color: rgba(238, 238, 238, 0.5);
+  position: relative;
+}
+
+.card--badge{
+  width: 60px;
+  height: 20px;
+  background-color: rgba(255, 255, 255, 0.849);
+  position: absolute;
+  border-radius: 4px;
+  margin-top: 8px;
+  margin-left: 8px;
+  font-size: 10.24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardWrapper{
+  width: 176px;
+  margin-left: 16px;
+  margin-right: 16px;
 }
 
 .card--photo {
   width: 176px;
   margin-bottom: 8px;
+  border-radius: 8px;
 }
 
 .card--star {
   width: 14px;
   margin-right: 8px;
+}
+
+.card--title{
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .gray {
@@ -140,7 +166,15 @@ section {
     justify-content: center;
     flex-wrap: wrap;
     background-color: rgba(238, 238, 238, 0.5);
-    padding-top: 36px;
+    padding-top: 18px;
     padding-bottom: 16px;
 
+}
+
+.airbnbCard{
+  width: 550px;
+  background-color: rgba(238, 238, 238, 0.5);
+  display: flex;
+  overflow: auto;
+  padding-bottom: 16px;
 }

@@ -16,26 +16,26 @@ import ReactDOM from "react-dom";
 // )
 
 
-// THIS WORKS FOR AirBnB PROJECT
+// // THIS WORKS FOR AirBnB PROJECT
 
-import App from "./components/AirBnB/App";
-import "./components/AirBnB/AirbnbStyle.css";
-
-ReactDOM.render(
-  <div className="container">
-    <App />
-  </div>,
-  document.getElementById("root")
-);
-
-// // THIS WORKS FOR THE TRAVEL JOURNAL SOLO PROJECT
-
-// import App from "./components/Travel Journal/App";
-// import "./components/Travel Journal/TravelJournalStyle.css";
+// import App from "./components/AirBnB/App";
+// import "./components/AirBnB/AirbnbStyle.css";
 
 // ReactDOM.render(
 //   <div className="container">
-//     <App/>
+//     <App />
 //   </div>,
-//   document.getElementById('root')
-// )
+//   document.getElementById("root")
+// );
+
+// THIS WORKS FOR THE TRAVEL JOURNAL SOLO PROJECT
+
+import App from "./components/Travel Journal/App";
+import "./components/Travel Journal/TravelJournalStyle.css";
+
+ReactDOM.render(
+  <div className="container">
+    <App/>
+  </div>,
+  document.getElementById('root')
+)

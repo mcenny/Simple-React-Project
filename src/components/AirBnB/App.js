@@ -3,6 +3,7 @@ import Hero from "./Hero";
 import Card from "./Card";
 import Contacts from "./Contacts";
 import catData from "./catData";
+import AirbnbLocationData from "./AirbnbLocationData";
 
 export default function App() {
   const CatCard = catData.map((cat) => (
@@ -14,11 +15,27 @@ export default function App() {
     />
   ));
 
+  const AirbnbCard = AirbnbLocationData.map((item) => (
+    <Card
+    key = {item.id}
+    id = {item.id}
+    title = {item.title}
+    description = {item.description}
+    price = {item.price}
+    photo = {item.img}
+    rating = {item.stats.rating}
+    reviewCount = {item.stats.reviewCount}
+    location = {item.location}
+    openSpots = {item.openSpots}
+
+    />
+  ));
+
   return (
     <div className="app">
       <Navbar />
       <Hero />
-      <Card className="card-component" />
+      <div className="airbnbCard">{AirbnbCard}</div>
       <div className="contact-section">{CatCard}</div>
     </div>
   );
