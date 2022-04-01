@@ -14,17 +14,17 @@ import ReactDOM from "react-dom";
 //     document.getElementById('root')
 // )
 
-// THIS WORKS FOR AirBnB PROJECT
+// // THIS WORKS FOR AirBnB PROJECT
 
-import App from "./components/AirBnB/App";
-import "./components/AirBnB/AirbnbStyle.css";
+// import App from "./components/AirBnB/App";
+// import "./components/AirBnB/AirbnbStyle.css";
 
-ReactDOM.render(
-  <div className="container">
-    <App />
-  </div>,
-  document.getElementById("root")
-);
+// ReactDOM.render(
+//   <div className="container">
+//     <App />
+//   </div>,
+//   document.getElementById("root")
+// );
 
 // // THIS WORKS FOR THE TRAVEL JOURNAL SOLO PROJECT
 
@@ -37,3 +37,15 @@ ReactDOM.render(
 //   </div>,
 //   document.getElementById('root')
 // )
+
+
+// THIS WORKS FOR THE MEME GENERATOR
+import App from "./components/MemeGenerator/App"
+import "./components/MemeGenerator/MemeGenerator.css"
+
+ReactDOM.render(
+  <div>
+    <App/>
+  </div>,
+  document.getElementById('root')
+)

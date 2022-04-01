@@ -9,7 +9,7 @@ export default function Card(props) {
   return (
     <div className="cardWrapper">
       <div className="card">
-        {props.openSpots === 0 && <div className="card--badge">SOLD OUT</div>}
+        {badgeText && <div className="card--badge">{badgeText}</div>}
         <img src={props.photo} className="card--photo" />
         <div>
           <img src="./img/Star.png" className="card--star" />

@@ -1,9 +1,7 @@
-import MountFuji from '../../img/';
-
 export default [
     {
         id: 1,
-        img: MountFuji,
+        img: "./img/MountFuji.jpg",
         location: 'JAPAN',
         googleMapLink: '#',
         title: 'Mount Fuji',
@@ -12,7 +10,7 @@ export default [
     },
     {
         id: 2,
-        img: SydneyOperaHouse,
+        img: "./img/SydneyOperaHouse.jpg",
         location: 'AUSTRALIA',
         googleMapLink: '#',
         title: 'Sydney Opera House',
@@ -21,7 +19,7 @@ export default [
     },
     {
         id: 3,
-        img: Geirangerfjord,
+        img: "./img/Geirangerfjord.jpg",
         location: 'NORWAY',
         googleMapLink: '#',
         title: 'Geirangerfjord',
